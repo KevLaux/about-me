@@ -1,38 +1,32 @@
-html{
-    height: 100%;
+html {
+  height: 100%;
 }
 
 body {
-    min-height: 98%;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 100%;
-
+  min-height: 98%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
   font-family: "PT Sans Narrow", sans-serif;
   background-color: #3D4281;
   color: #B6EEFC;
-  
-  
 }
-header{
-	
-	font-size: 50pt;
-	display: grid;
-	  grid-template-columns: repeat(auto-fit, minmax(140pt, 1fr));
-	  
+
+header {
+  font-size: 50pt;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140pt, 1fr));
   grid-gap: 10px;
 }
 
-
-
-
-
-h1{
+h1 {
   font-family: "PT Sans", sans-serif;
 }
 
-article{
-	padding:20pt;
-	padding-top:5pt;
+article {
+  padding: 20pt;
+  padding-top: 5pt;
+  padding-bottom: 5pt;
+  border-left-style: solid;
+  border-color: #B6EEFC;
 }
-	

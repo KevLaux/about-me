@@ -3,21 +3,34 @@ html {
 }
 
 body {
-  min-height: 98%;
+  min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 100%;
   font-family: "PT Sans Narrow", sans-serif;
   background-color: #3D4281;
   color: #B6EEFC;
+  margin:0pt;
+}
+
+main,footer{
+	margin:5pt;
 }
 
 header {
+  background-image: url(../images/header.jpg);
+  /* https://www.rvinyl.com/ORACAL-975-Honeycomb-Deep-Blue-536-Premium-Structure-Cast-Film.html */
+  padding-left:10pt;
   font-size: 50pt;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140pt, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150pt, 1fr));
   grid-gap: 10px;
+  
 }
+img{
+	opacity: .9;
+}
+
 
 h1 {
   font-family: "PT Sans", sans-serif;
